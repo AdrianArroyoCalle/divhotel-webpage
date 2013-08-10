@@ -1,0 +1,11 @@
+body{
+  background-color: rgb(120,200,180);
+  font-family: "Roboto";
+  margin: 0;
+  padding: 0;
+}
+header{
+  position: fixed;
+  height: 10%;
+  background-color: yellow;
+}
