@@ -12,10 +12,11 @@ header{
 }
 nav{
     width: 100%; /* Anchura del menú */
-    height: 20%; /* Altura del menú */
-    margin: 0 auto;
+    height: 100px; /* Altura del menú */
+    /*margin: 0 auto;*/
     position: fixed;
     top: 0px;
+    left: 0px;
     background-color: yellow;
 }
 nav ul{
@@ -28,10 +29,11 @@ nav ul li{
     margin: 0 5px; /* Distancia de separación entre botones */
 }
 nav ul li iframe{
-    height: 20%;
+    height: 100px;
     border: none;
 }
 article{
-padding-top: 20%;
-
+    position: static;
+    top: 0px;
+    margin-top: 100px;
 }
