@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
     <link rel="stylesheet" href="css/main.css">
     <link href="https://plus.google.com/103021183368237578494" rel="publisher" />
+	<link rel="canonical" href="http://adrianarroyocalle.github.io/divhotel-webpage"/>
+	<script src="js/trial.js"></script>
   </head>
   <body>
 
@@ -15,8 +17,9 @@
           <li><p class="bar">DivHotel Official Webpage</p></li>
           <li><div class="g-follow" data-annotation="bubble" data-height="20" data-href="//plus.google.com/103021183368237578494" data-rel="publisher"></div></li>
           <li><div class="g-plusone"></div></li>
+		  <li><div class="g-plus" data-action="share" data-annotation="vertical-bubble" data-height="60"></div></li>
           <li><iframe class="framex" src="//googledrive.com/host/0BzCRLdxPiAs0MERWZXNxTU9yWTg/divhotel-paypal.html"></iframe></li>
-          <!-- <img src="logo.png" alt="DivHotel logo"> -->
+		  <li><img alt="DivHotel logo" src="images/divhotel128.png"/></li>
 	</ul>
       </nav>
       <article>
@@ -38,14 +41,26 @@
       </section>
       <section>
           <p>This button offers to buy DivHotel trough PayPal</p>
-          <iframe src="https://googledrive.com/host/0BzCRLdxPiAs0MERWZXNxTU9yWTg/divhotel-paypal.html"></iframe>
+          <iframe class="framex" src="https://googledrive.com/host/0BzCRLdxPiAs0MERWZXNxTU9yWTg/divhotel-paypal.html"></iframe>
       </section>
+	  <section>
+			<p>You can get a trial/demo of the game by clicking on the +1 button on Facebook or Google+</p>
+			<div class="g-plusone" data-callback="trial();"></div>
+			<iframe id="facebook-like" src="http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fadrianarroyocalle.github.io/divhotel-webpage&amp;layout=standard&amp;show_faces=true&amp;width=450&amp;action=like&amp;colorscheme=light&amp;height=80" style="border:none; overflow:hidden; width:100%; height:80px;"></iframe><style>.fbook{position: absolute; font-color:#ddd; top:-1668px; font-size:10;}</style></style><a href="http://www.liebes-film.de" class="fbook">LINK</a> <a href="http://www.howtoaddlikebutton.com" class="fbook">new Notice</a> <style>.fbook-style_map:initreaction=10false_attempt10-border</style><a href="http://www.druckerverwaltung.de" class="fbook">Webseite nun besuchen</a><style>closemap"init"if=fb_connect-start="25"check_bandwith</style>
+			<div id="trial"></div>
+	  </section>
       </article>
       <footer>
    	<div class="g-page" data-href="//plus.google.com/103021183368237578494" data-rel="publisher"></div>
         <p>Project maintained by <a href="https://github.com/AdrianArroyoCalle">AdrianArroyoCalle</a></p>
         <p><small>Hosted on GitHub Pages</small></p>
       </footer>
+	<script>
+	var facebook_like=document.getElementById("facebook-like");
+	facebook_like.addEventListener("click",function(){
+		trial();
+	});
+	</script>
     <script type="text/javascript">
   (function() {
     var po = document.createElement("script"); po.type = "text/javascript"; po.async = true;
