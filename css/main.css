@@ -1,6 +1,10 @@
+@font-face{
+	font-family: "Copse";
+	src: url(../fonts/copse-regular-webfont.woff);
+}
 body{
   background-color: rgb(120,200,180);
-  font-family: "Roboto";
+  font-family: "Copse";
 }
 header{
   /*position: fixed;
