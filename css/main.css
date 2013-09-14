@@ -23,7 +23,6 @@ nav ul{
     list-style: none; /* Eliminamos el puntito negro */
     display: block;
     }
- 
 nav ul li{
     float: left; /* Alineamos los botones del menú */
     margin: 0 5px; /* Distancia de separación entre botones */
@@ -32,8 +31,16 @@ nav ul li iframe{
     height: 100px;
     border: none;
 }
+nav ul li img{
+	height: 100px;
+	border: none;
+}
 article{
     position: static;
     top: 0px;
     margin-top: 100px;
+}
+.framex{
+	border: none;
+	overflow: hidden;
 }
